@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#pertama{
+    background: #FFFFFF;
+    width: 100%;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    border-left: 2px solid rgb(212, 212, 212);
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .gambarnav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .gambarnav img {
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+}
+
+nav li:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-right: 10px;
+    justify-content: center;
+    width: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.konten .kiri .isi ul>li {
+    margin: 0px 0px 0px 20px;
+    display: inline;
+}
+
+.konten .kiri .isi ul>li a{
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+.secondary-menu ul {
+    padding-left: 0%;
+}
+.dropdown-child li {
+    display: block;
+    line-height: 50px;
+    padding-left: 2rem;
+}
+
+.dropdown-child {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    z-index: 20;
+    justify-content: center;
+}
+#ketiga {
+    width: 100%;
+    height: 450px;
+    background-color: #1F211D;
+}
+
+#ketiga .tiga {
+    display: flex;
+    padding: 100px 0;
+}
+
+#ketiga .bagkiri {
+    width: 50%;
+}
+
+#ketiga .bagkiri h1{
+    color:  #ffffff;
+    font-size: 45px;
+}
+
+}
+
+#ketiga .bagkiri .tombolshare {
+    background-color:  #A9DA57;
+    height: 45px;
+    width: 162px;
+    border: none;
+    color: #152647;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#ketiga .bagkanan {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+#ketiga .bagkanan .copy {
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+}
+
+#ketiga .bagkanan .footgambar {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: flex-end;
+}
+
+#ketiga .bagkanan .footgambar img{
+    width: 80%;
+}
+
+#ketiga .bagkanan .footsatu {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ketiga .bagkanan .footsatu img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#ketiga .bagkanan .footsatu p {
+    color: white;
+    text-align: right;
+    /* line-height: 40px; */
+    font-size: 20px;
+}
+
+#ketiga .bagkanan .footdua {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ketiga .bagkanan .footdua img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#ketiga .bagkanan .footdua p {
+    font-size: 20px;
+    color: white;
+}
+
+#ketiga .bagkanan .footsatu br {
+ font-size: 20px;
+    color: white;
+}
+
+
+#ketiga .row {
+    margin: 20px 0;
+}
+
+#ketiga .row input, textarea{
+    width: 100%;
+    border-radius: 3px;
+    padding: 1em;
+    font-style: italic;
+    border: 1px solid black;
+}
+#keempat {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+#keempat .judul {
+    margin-bottom: 40px;
+}
+
+#keempat .judul h3 {
+    font-size: 36px;
+}
+
+#keempat .judul h1 {
+    font-size: 36px;
+    color: #A4D84F;
+    
+}
+
+#keempat .dua {
+    padding: 60px 0;
+}
+
+#keempat .isibawah {
+    display: flex;
+}
+
+#keempat .isibawah .gambarkiri {
+    width: 40%;
+}
+
+#keempat .kontenkanan{
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 90px;
+}
+
+#keempat .kontenkanan h1 {
+    font-size: 36px;
+}
+
+#keempat .kontenkanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #9a9a9a;
+    margin: 20px 0;
+}
+.gird-container{
+    display: grid;
+}
+.grid-container {
+  display: inline-grid;
+}
+.grid-container
+#kelima .kontenkanan{
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 90px;
+}
+
+#kelima .kontenkanan h1 {
+    font-size: 36px;
+}
+
+#kelima .kontenkanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #9a9a9a;
+    margin: 20px 0;
+}
+#kelima {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+#kelima .judul {
+    margin-bottom: 40px;
+}
+
+#kelima .judul h3 {
+    font-size: 36px;
+}
+
+#kelima .judul h1 {
+    font-size: 36px;
+    color: #A4D84F;
+    
+}
+
+#kelima .dua {
+    padding: 60px 0;
+}
+
+#kelima .isibawah {
+    display: flex;
+}
+
+#kelima .isibawah .gambarkiri {
+    width: 40%;
+}
+#kelima .isisbawah .gambarkanan {
+    width: 40%;
+}
